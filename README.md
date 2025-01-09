@@ -1,6 +1,6 @@
-# My Static Site
+# My Portfolio
 
-Welcome to my static site! This project showcases Web Fundamentals.
+Welcome to my Portfolio! This project showcases Web Fundamentals.
 
 ## Demo
 
@@ -14,12 +14,11 @@ You can view the live site at: https://escaliburcalibur.github.io/html/work.html
 
 ## Aims
 
-- **Objective**: What do we want to accomplish with our web project
-- **Structure**: SPA, several pages linked in an index.
-- **Design lines**: Aesthetics
-- **strategies**: Storytellings, narratives
-- **intuitions**: Those things you dont't know why but you are sure you wat to include
-
+Objective: To demonstrate proficiency in core web development principles by creating a responsive, user-friendly portfolio.
+Structure: SPA (Single Page Application), with multiple sections that are easily navigable through a clean, linear index.
+Design lines: Modern, minimalistic aesthetic with a focus on simplicity and ease of use.
+Strategies: Use storytelling techniques through content sections to take the visitor on a journey, highlighting skills, projects, and personal philosophy.
+Intuitions: Ensure the portfolio includes interactive elements like animations, smooth transitions, and an engaging design that invites exploration.
 
 ## Technologies Used
 
