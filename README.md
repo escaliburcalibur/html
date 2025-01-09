@@ -4,7 +4,7 @@ Welcome to my static site! This project showcases Web Fundamentals.
 
 ## Demo
 
-You can view the live site at: [https://ruvebal-udit.github.io/web-fundamentals/](https://ruvebal-udit.github.io/web-fundamentals/)
+You can view the live site at: https://escaliburcalibur.github.io/html/work.html
 
 ## Features
 
