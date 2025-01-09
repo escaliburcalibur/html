@@ -1,0 +1,216 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+
+}
+
+main {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 92%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    z-index: 1000;
+
+}
+
+.logo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #7e7e7e;
+}
+
+.logo li {
+    margin: 0 15px;
+  }
+
+.nav-links  {
+    font-size: 1em;
+    font-weight: lighter;
+    color: rgb(131, 131, 131);
+    list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+    margin: 0 15px;
+  }
+.subtitle {
+    margin: 3px 0; /* Reduce el espacio entre las frases */
+}
+
+.nav-links a {
+    margin-right: 40px; /* Incrementa el espacio entre los enlaces */
+}
+
+.nav-links a:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último enlace */
+}
+    
+
+.menu .nav-links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.menu .nav-links a:hover {
+    color: lightgray;
+}
+
+/* Contenedor para habilitar el scroll horizontal */
+.scroll-container {
+    width: 90%;
+    height: 87vh; /* El contenedor ocupa toda la altura de la ventana */
+    display: flex;
+    justify-content: left; /* Centra horizontalmente el contenedor interno */
+    align-items: center; /* Centra verticalmente el contenedor interno */
+    overflow: hidden; /* Ocultamos el desbordamiento */
+    position: relative;
+    background-color: #ffffff; /* Fondo opcional */
+    margin-right: 100px; /* Incrementa el espacio entre los enlaces */
+    margin-left: 100px; /* Incrementa el espacio entre los enlaces */
+    padding: 50px 50px;
+}
+
+/* Contenedor interno de las imágenes */
+.scroll-images {
+    display: inline-flex; /* Las imágenes estarán en fila */
+    position: absolute; /* Permite desplazar con `transform` */
+    will-change: transform; /* Mejora el rendimiento */
+    gap: 200px; /* Espaciado grande entre las imágenes */
+}
+
+/* Estilo para las imágenes */
+.scroll-images img {
+    width: 300px; /* Tamaño más grande */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 0px; /* Bordes redondeados */
+    object-fit: contain;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    z-index: 1000;
+  }
+.footer-left {
+    font-size: 1em;
+    color: rgb(87, 87, 87);
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    
+}
+
+.footer-right {
+
+    bottom: 0;
+    right: 0;
+
+    
+    color: #fff;
+}
+
+  
+  
+
+.footer-text {
+    margin: 2px 0;
+    color: #747474;
+    font-size: 1em;
+}
+
+
+
+/* Estilos generales */
+
+  
+  /* Contenedor principal */
+  .container {
+    display: flex;
+    justify-content: center;  /* Centra las columnas horizontalmente */
+    align-items: flex-end;  /* Alinea las columnas en la parte superior */
+    max-width: 1300px;
+    margin: 500px auto 60px auto; /* Espaciado para el menú y el footer fijo */
+    padding: 20px;
+    
+  }
+  
+  /* Columna izquierda */
+  .left-column {
+    flex: 2;
+    padding-right: 20px;
+    overflow-y: auto;
+    height: 200vh;
+    text-align: right; /* Alinea el texto a la derecha */
+  }
+  p {
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 1200px;
+    padding-bottom: 200px;
+    
+  }
+  
+  h1 {
+  
+    color: #000000;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    
+  }
+  h2 {
+    text-transform: uppercase;
+    color: #818181;
+    font-size: 2em;
+    font-weight: lighter;
+    
+    
+  }
+  /* Columna derecha */
+  .right-column {
+    flex: 1;
+    position: sticky;
+    top: 150px;
+    align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    
+
+    border-radius: 8px;
+  }
+  
+  /* Asegura que el texto no salga del contenedor */
+  .left-column p {
+    margin-bottom: 15px;
+  }
+  
+  .imagen-grande {
+    width: 100%; /* o un valor en píxeles, como 800px */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+  
