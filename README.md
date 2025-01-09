@@ -33,5 +33,5 @@ To get a local copy of this project, follow these steps:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/ruvebal-udit/web-fundamentals.git
+   git clone https://github.com/escaliburcalibur/html.git
 
